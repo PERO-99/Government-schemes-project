@@ -1,191 +1,206 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  /* Patriot UI Theme */
-  --saffron: #FF9933;
-  --saffron-light: rgba(255, 153, 51, 0.1);
+  --primary: #000080;
+  --secondary: #1E3A8A;
+  --accent: #FF9933;
   --india-green: #138808;
-  --chakra-blue: #000080;
-  
-  --bg-dark: #0f172a;
-  --bg-card: rgba(255, 255, 255, 0.95);
-  
-  --shadow-premium: 0 10px 30px -10px rgba(0, 0, 128, 0.15);
-  --shadow-hover: 0 20px 40px -15px rgba(0, 0, 128, 0.25);
-  --font-display: 'Outfit', sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --accent-light: rgba(255, 153, 51, 0.1);
+  --bg-color: #F8FAFC;
+  --card-bg: rgba(255, 255, 255, 0.90);
+  --glass-border: rgba(255, 255, 255, 0.6);
+  --shadow-premium: 0 20px 40px -15px rgba(0, 0, 128, 0.15);
+  --shadow-hover: 0 30px 60px -20px rgba(0, 0, 128, 0.25);
 }
 
 body {
-  font-family: var(--font-body);
-  background-color: #f8fafc;
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--bg-color);
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(210, 100%, 95%, 1) 0, transparent 50%), 
+    radial-gradient(at 100% 100%, hsla(28, 100%, 93%, 1) 0, transparent 50%);
+  background-attachment: fixed;
   color: #334155;
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-display);
-  color: var(--chakra-blue);
+  font-family: 'Outfit', sans-serif;
+  color: #0f172a;
 }
 
-/* Netflix Style Horizontal Row Container */
-.netflix-row {
-  display: flex;
-  overflow-x: auto;
-  gap: 1.5rem;
-  padding-bottom: 2rem;
-  padding-top: 1rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  scroll-snap-type: x mandatory;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+p, span, div, input, button {
+  font-family: 'Inter', sans-serif;
 }
 
-.netflix-row::-webkit-scrollbar {
-  display: none;
-}
-
-/* 
-  Since the user wants Amazon/Netflix Netflix-styled posters:
-  We make the cards fixed width and snap to start
-*/
-.netflix-card {
-  min-width: 280px;
-  max-width: 280px;
-  scroll-snap-align: start;
-  background: white;
-  border-radius: 1.25rem;
-  overflow: hidden;
+/* Premium Card with Glassmorphism */
+.rr-glass-card, .rr-card {
+  background: var(--card-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  border-radius: 24px;
   box-shadow: var(--shadow-premium);
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  flex-shrink: 0;
-  position: relative;
-  display: flex;
-  flex-direction: column;
 }
 
-.netflix-card:hover {
-  transform: translateY(-8px) scale(1.02);
+.rr-glass-card:hover, .rr-card:hover {
+  transform: translateY(-8px);
   box-shadow: var(--shadow-hover);
-  z-index: 10;
+  border-color: rgba(255, 255, 255, 0.8);
 }
 
-/* Buttons */
-.rr-btn-primary {
-  background: linear-gradient(135deg, var(--chakra-blue) 0%, #1e3a8a 100%);
+/* Stunning Buttons */
+.rr-btn-premium {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
   color: white;
-  border: none;
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.75rem;
-  font-weight: 700;
-  font-family: var(--font-display);
+  padding: 14px 28px;
+  border-radius: 100px;
+  font-weight: 600;
   letter-spacing: 0.5px;
-  box-shadow: 0 4px 15px rgba(0, 0, 128, 0.3);
+  box-shadow: 0 10px 20px rgba(16, 42, 67, 0.2);
   transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 8px;
 }
 
-.rr-btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 128, 0.4);
+.rr-btn-premium:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 15px 30px rgba(16, 42, 67, 0.3);
+  background: linear-gradient(135deg, #0f172a 0%, var(--primary) 100%);
 }
 
-.rr-btn-green {
-  background: var(--india-green);
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.75rem;
-  font-weight: 700;
-  font-family: var(--font-display);
+.rr-btn-premium:active {
+  transform: translateY(1px);
+}
+
+.rr-btn-outline {
+  background: white;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 12px 26px;
+  border-radius: 100px;
+  font-weight: 600;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(19, 136, 8, 0.3);
 }
 
-.rr-btn-green:hover {
-  transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 8px 25px rgba(19, 136, 8, 0.4);
-}
-
-.rr-btn-saffron {
-  background: var(--saffron);
+.rr-btn-outline:hover {
+  background: var(--primary);
   color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.75rem;
-  font-weight: 700;
-  font-family: var(--font-display);
+}
+
+/* Fintech Input Fields */
+.rr-input-modern {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 16px 20px;
+  font-size: 16px;
+  color: #1e293b;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(255, 153, 51, 0.3);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
-.rr-btn-saffron:hover {
-  transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 8px 25px rgba(255, 153, 51, 0.4);
+.rr-input-modern:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px rgba(16, 42, 67, 0.1);
+  background: white;
 }
 
-/* Navigation Links */
-.rr-nav-link {
-  display: flex;
+/* Badges */
+.rr-badge {
+  display: inline-flex;
   align-items: center;
-  gap: 1rem;
-  padding: 1rem 1.25rem;
-  border-radius: 1rem;
+  padding: 4px 12px;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.rr-badge-active {
+  background-color: rgba(16, 185, 129, 0.15);
+  color: #059669;
+}
+
+.rr-badge-accent {
+  background-color: var(--accent-light);
+  color: #c2410c;
+}
+
+/* Carousel Track Animations */
+.carousel-slide-premium {
+  transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Category Chips */
+.rr-chip {
+  padding: 12px 24px;
+  border-radius: 100px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  color: #64748b;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+}
+
+.rr-chip:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(16, 42, 67, 0.08);
+}
+
+.rr-chip.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+  box-shadow: 0 8px 15px rgba(16, 42, 67, 0.2);
+}
+
+/* Navigation Link Animation */
+.rr-nav-link {
+  position: relative;
   color: #475569;
   font-weight: 600;
-  transition: all 0.2s ease;
+  padding: 12px 16px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .rr-nav-link:hover {
-  background: white;
-  color: var(--chakra-blue);
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  background: #f1f5f9;
+  color: var(--primary);
 }
 
 .rr-nav-link.active {
-  background: white;
-  color: var(--chakra-blue);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  background: rgba(16, 42, 67, 0.05);
+  color: var(--primary);
 }
 
-/* Profile Form Modern Inputs */
-.rr-input {
-  width: 100%;
-  background: white;
-  border: 2px solid #e2e8f0;
-  border-radius: 0.75rem;
-  padding: 0.875rem 1rem;
-  font-family: var(--font-body);
-  font-size: 1rem;
-  color: #1e293b;
-  transition: all 0.2s ease;
-}
-
-.rr-input:focus {
-  border-color: var(--saffron);
-  box-shadow: 0 0 0 4px var(--saffron-light);
-  outline: none;
-}
-
-/* Video Modal */
-.video-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-  background: #000;
-  border-radius: 1.5rem;
-  overflow: hidden;
-}
-
-.video-container iframe {
+.rr-nav-link.active::before {
+  content: '';
   position: absolute;
-  top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 60%;
+  width: 4px;
+  background: var(--accent);
+  border-radius: 0 4px 4px 0;
 }
 
 /* Animations */
@@ -195,13 +210,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .animate-fade-up {
-  animation: fadeUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation: fadeUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-/* Custom Scrollbar for normal areas */
+.stagger-1 { animation-delay: 100ms; }
+.stagger-2 { animation-delay: 200ms; }
+.stagger-3 { animation-delay: 300ms; }
+
+/* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
-  height: 8px;
 }
 ::-webkit-scrollbar-track {
   background: transparent;
@@ -214,15 +232,17 @@ h1, h2, h3, h4, h5, h6 {
   background: #94a3b8;
 }
 
+/* Toast Modern */
 .rr-toast-modern {
   position: fixed;
   bottom: 24px;
   right: 24px;
-  background: var(--chakra-blue);
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(10px);
   color: white;
   padding: 16px 24px;
   border-radius: 16px;
-  box-shadow: 0 20px 40px rgba(0, 0, 128, 0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   gap: 12px;

@@ -1,0 +1,807 @@
+{
+  "meta": {
+    "createdAt": "2026-04-18T08:59:07.929Z",
+    "updatedAt": "2026-04-18T09:29:20.481Z",
+    "schemaVersion": 3
+  },
+  "schemes": [
+    {
+      "id": "1",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.927Z"
+      },
+      "status": "Active",
+      "category": "Farmers",
+      "theme": "Agriculture",
+      "tags": [],
+      "title": "PM Kisan Samman Nidhi",
+      "summary": "Minimum income support of ₹6,000 per year for landholding farmers.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=PM%20Kisan%20Samman%20Nidhi",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.8
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "2",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Farmers",
+      "theme": "Agriculture",
+      "tags": [],
+      "title": "Kisan Credit Card Scheme",
+      "summary": "Timely access to agricultural credit to meet cultivation needs.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=Kisan%20Credit%20Card%20Scheme",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.7,
+        "starts": 1,
+        "completes": 1
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z",
+      "updatedAt": "2026-04-18T09:29:20.481Z"
+    },
+    {
+      "id": "3",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Farmers",
+      "theme": "Agriculture",
+      "tags": [],
+      "title": "PM Fasal Bima Yojana",
+      "summary": "Comprehensive crop insurance scheme from pre-sowing to post-harvest.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=PM%20Fasal%20Bima%20Yojana",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.5
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "4",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Farmers",
+      "theme": "Agriculture",
+      "tags": [],
+      "title": "PM Krishi Sinchayee Yojana",
+      "summary": "Improving farm productivity and ensuring better water use efficiency.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=PM%20Krishi%20Sinchayee%20Yojana",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.4
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "5",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Farmers",
+      "theme": "Agriculture",
+      "tags": [],
+      "title": "National Agriculture Market (e-NAM)",
+      "summary": "Pan-India electronic trading portal networking existing APMC mandis.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=National%20Agriculture%20Market%20(e-NAM)",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.6
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "6",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Healthcare",
+      "theme": "Healthcare",
+      "tags": [],
+      "title": "Ayushman Bharat PM-JAY",
+      "summary": "Health insurance cover up to ₹5 lakhs per family per year for secondary/tertiary care.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=Ayushman%20Bharat%20PM-JAY",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.9
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "7",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Healthcare",
+      "theme": "Healthcare",
+      "tags": [],
+      "title": "National Health Mission",
+      "summary": "Universal access to equitable, affordable, and quality healthcare services.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=National%20Health%20Mission",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.4
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "8",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Healthcare",
+      "theme": "Healthcare",
+      "tags": [],
+      "title": "PM Surakshit Matritva Abhiyan",
+      "summary": "Comprehensive antenatal care for pregnant women.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=PM%20Surakshit%20Matritva%20Abhiyan",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.7
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "9",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Healthcare",
+      "theme": "Healthcare",
+      "tags": [],
+      "title": "Rashtriya Swasthya Bima Yojana",
+      "summary": "Health insurance for Below Poverty Line (BPL) families in the unorganized sector.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=Rashtriya%20Swasthya%20Bima%20Yojana",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.3
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "10",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Healthcare",
+      "theme": "Healthcare",
+      "tags": [],
+      "title": "Mission Indradhanush",
+      "summary": "Providing life-saving vaccines to children and pregnant women.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=Mission%20Indradhanush",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.8
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "11",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Education",
+      "theme": "Education",
+      "tags": [],
+      "title": "National Scholarship Portal",
+      "summary": "Digital platform distributing financial aid directly to students.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=National%20Scholarship%20Portal",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.7
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "12",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Education",
+      "theme": "Education",
+      "tags": [],
+      "title": "Skill India Mission",
+      "summary": "Vocational training and skill certification for Indian youth.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=Skill%20India%20Mission",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.5
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "13",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Education",
+      "theme": "Education",
+      "tags": [],
+      "title": "Vidyalakshmi Education Loan",
+      "summary": "Single window for students to access education loans from banks.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=Vidyalakshmi%20Education%20Loan",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.8
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "14",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Education",
+      "theme": "Education",
+      "tags": [],
+      "title": "Sarva Shiksha Abhiyan",
+      "summary": "Program for universalizing elementary education across India.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=Sarva%20Shiksha%20Abhiyan",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.6
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "15",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Education",
+      "theme": "Education",
+      "tags": [],
+      "title": "Udaan Scheme (CBSE)",
+      "summary": "Mentoring scheme for girls transitioning from school to engineering.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=Udaan%20Scheme%20(CBSE)",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.4
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "16",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Women",
+      "theme": "Women",
+      "tags": [],
+      "title": "Beti Bachao Beti Padhao",
+      "summary": "Initiative to prevent gender-biased sex selection and promote girls' education.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=Beti%20Bachao%20Beti%20Padhao",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.9
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "17",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Women",
+      "theme": "Women",
+      "tags": [],
+      "title": "Pradhan Mantri Ujjwala Yojana",
+      "summary": "Providing free LPG connections to women in BPL households.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=Pradhan%20Mantri%20Ujjwala%20Yojana",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.8
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "18",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Women",
+      "theme": "Women",
+      "tags": [],
+      "title": "Sukanya Samriddhi Yojana",
+      "summary": "Small savings scheme to build a fund for a girl child's education and marriage.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=Sukanya%20Samriddhi%20Yojana",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.9
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "19",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Women",
+      "theme": "Women",
+      "tags": [],
+      "title": "Mahila E-Haat",
+      "summary": "Online marketing platform supporting women entrepreneurs and SHGs.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=Mahila%20E-Haat",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.5
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "20",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Women",
+      "theme": "Women",
+      "tags": [],
+      "title": "Stand-Up India (Women)",
+      "summary": "Bank loans between ₹10 lakh and ₹1 crore for female entrepreneurs.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=Stand-Up%20India%20(Women)",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.7
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "21",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Finance",
+      "theme": "Finance",
+      "tags": [],
+      "title": "PM Jan Dhan Yojana",
+      "summary": "Ensuring access to banking, credit, insurance, and pension for all households.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=PM%20Jan%20Dhan%20Yojana",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.9
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "22",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Finance",
+      "theme": "Finance",
+      "tags": [],
+      "title": "MUDRA Yojana (PMMY)",
+      "summary": "Refinancing support offering micro-loans up to ₹10 lakhs to small enterprises.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=MUDRA%20Yojana%20(PMMY)",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.6
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "23",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Finance",
+      "theme": "Finance",
+      "tags": [],
+      "title": "Atal Pension Yojana",
+      "summary": "A guaranteed pension scheme for workers in the unorganized sector.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=Atal%20Pension%20Yojana",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.5
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "24",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Finance",
+      "theme": "Finance",
+      "tags": [],
+      "title": "Startup India Scheme",
+      "summary": "Simplifying regulatory models and providing tax benefits to foster startups.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=Startup%20India%20Scheme",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.8
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "25",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Finance",
+      "theme": "Finance",
+      "tags": [],
+      "title": "Make in India",
+      "summary": "Fostering innovation and building world-class manufacturing infrastructure.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=Make%20in%20India",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.7
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "26",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Welfare",
+      "theme": "Welfare",
+      "tags": [],
+      "title": "MGNREGA",
+      "summary": "Ensuring 100 days of guaranteed wage employment for rural households.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=MGNREGA",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.6
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    },
+    {
+      "id": "27",
+      "source": {
+        "type": "official",
+        "verified": true,
+        "verifiedAt": "2026-04-18T08:59:07.929Z"
+      },
+      "status": "Active",
+      "category": "Welfare",
+      "theme": "Welfare",
+      "tags": [],
+      "title": "Pradhan Mantri Awas Yojana (PMAY)",
+      "summary": "Affordable housing for all, aiming to build pucca houses with basic amenities.",
+      "eligibilitySummary": "Aadhaar Card, Permanent Residency, Bank Account required.",
+      "media": {
+        "imageUrl": "https://placehold.co/800x400/000080/FF9933?text=Pradhan%20Mantri%20Awas%20Yojana%20(PMAY)",
+        "videoUrl": "https://www.youtube.com/embed/p18I12hQpC0"
+      },
+      "stats": {
+        "ratingAvg": 4.8
+      },
+      "createdAt": "2026-04-18T08:59:07.929Z"
+    }
+  ],
+  "reviews": [],
+  "reports": [],
+  "profiles": {},
+  "notifications": [],
+  "eligibilitySessions": {
+    "9B9z0MqzAuFW": {
+      "id": "9B9z0MqzAuFW",
+      "schemeId": "2",
+      "userKey": "cVFiUzL2rWfw",
+      "createdAt": "2026-04-18T09:29:09.471Z",
+      "updatedAt": "2026-04-18T09:29:20.481Z",
+      "index": 7,
+      "answers": {
+        "ruralUrban": "rural",
+        "state": "",
+        "annualIncomeINR": 100000,
+        "category": "sc",
+        "age": 17,
+        "hasAadhaar": true,
+        "hasBankAccount": true
+      },
+      "questions": [
+        {
+          "id": "ruralUrban",
+          "type": "single",
+          "i18nKey": "q.ruralUrban",
+          "title": "Where do you live?",
+          "helper": "This helps match rural/urban schemes.",
+          "options": [
+            {
+              "label": "Rural (Gaon)",
+              "value": "rural"
+            },
+            {
+              "label": "Urban (Shehar)",
+              "value": "urban"
+            }
+          ]
+        },
+        {
+          "id": "state",
+          "type": "text",
+          "i18nKey": "q.state",
+          "title": "Which state are you in?",
+          "helper": "Example: Bihar, UP, Tamil Nadu",
+          "placeholder": "Type your state"
+        },
+        {
+          "id": "annualIncomeINR",
+          "type": "single",
+          "i18nKey": "q.income",
+          "title": "What is your annual household income (approx)?",
+          "helper": "Schemes often have income limits.",
+          "options": [
+            {
+              "label": "Up to ₹1,00,000",
+              "value": 100000
+            },
+            {
+              "label": "₹1,00,001 - ₹2,50,000",
+              "value": 250000
+            },
+            {
+              "label": "₹2,50,001 - ₹6,00,000",
+              "value": 600000
+            },
+            {
+              "label": "Above ₹6,00,000",
+              "value": 9999999
+            }
+          ]
+        },
+        {
+          "id": "category",
+          "type": "single",
+          "i18nKey": "q.category",
+          "title": "Which category do you belong to?",
+          "helper": "Only for eligibility checks; not shared without your consent.",
+          "options": [
+            {
+              "label": "SC",
+              "value": "sc"
+            },
+            {
+              "label": "ST",
+              "value": "st"
+            },
+            {
+              "label": "OBC",
+              "value": "obc"
+            },
+            {
+              "label": "General",
+              "value": "general"
+            }
+          ]
+        },
+        {
+          "id": "age",
+          "type": "single",
+          "i18nKey": "q.age",
+          "title": "What is your age group?",
+          "helper": "Some schemes have age limits.",
+          "options": [
+            {
+              "label": "Under 18",
+              "value": 17
+            },
+            {
+              "label": "18 - 24",
+              "value": 20
+            },
+            {
+              "label": "25 - 59",
+              "value": 35
+            },
+            {
+              "label": "60+",
+              "value": 60
+            }
+          ]
+        },
+        {
+          "id": "hasAadhaar",
+          "type": "single",
+          "i18nKey": "q.aadhaar",
+          "title": "Do you have Aadhaar?",
+          "helper": "Often required; you can still proceed if you do not have it yet.",
+          "options": [
+            {
+              "label": "Yes",
+              "value": true
+            },
+            {
+              "label": "No",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "hasBankAccount",
+          "type": "single",
+          "i18nKey": "q.bank",
+          "title": "Do you have a bank account for DBT (Direct Benefit Transfer)?",
+          "helper": "Most benefits are sent to a bank account.",
+          "options": [
+            {
+              "label": "Yes",
+              "value": true
+            },
+            {
+              "label": "No",
+              "value": false
+            }
+          ]
+        }
+      ],
+      "result": {
+        "status": "ready",
+        "confidence": 0.935,
+        "trust": {
+          "badge": "unverified",
+          "label": "Unverified",
+          "reason": "Not yet verified; review sources before applying",
+          "domains": []
+        },
+        "reasons": [
+          "This scheme link is not yet verified. Please cross-check before applying."
+        ],
+        "missingRequirements": []
+      }
+    }
+  },
+  "audit": []
+}
