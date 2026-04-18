@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReadyRight - Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background-color: #ffffff;
+            color: #222;
+            font-size: 16px;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 24px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        h1 {
+            font-size: 32px;
+            color: #0066cc;
+            margin-bottom: 16px;
+        }
+        
+        p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 24px;
+            line-height: 1.5;
+        }
+        
+        .btn {
+            width: 100%;
+            padding: 16px 24px;
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+            background-color: #0066cc;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+        
+        .btn:hover {
+            background-color: #0052a3;
+        }
+        
+        .hero {
+            background-color: #e6f0ff;
+            padding: 48px 24px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        
+        .emoji {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ReadyRight</h1>
+        <p>Check your eligibility</p>
+        
+        <div class="hero">
+            <div class="emoji">✓</div>
+            <p>Find out what help you can get</p>
+        </div>
+        
+        <button class="btn" onclick="alert('Welfare selected!')">Welfare - Financial assistance</button>
+        <button class="btn" onclick="alert('Scholarship selected!')">Scholarship - Education support</button>
+        <button class="btn" onclick="alert('Health selected!')">Health - Medical assistance</button>
+        <button class="btn" onclick="alert('Housing selected!')">Housing - Housing support</button>
+        
+        <p style="margin-top: auto; text-align: center; color: #999;">
+            📞 Questions? Call 1-800-READY-RIGHT
+        </p>
+    </div>
+</body>
+</html>
